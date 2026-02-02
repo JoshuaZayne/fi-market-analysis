@@ -1,0 +1,49 @@
+{
+    "company_name": "MX Technologies",
+    "scoring_weights": {
+        "asset_size": 0.25,
+        "technology_fit": 0.30,
+        "competitive_opportunity": 0.25,
+        "regional_presence": 0.20
+    },
+    "score_thresholds": {
+        "hot": 80,
+        "warm": 60,
+        "developing": 40
+    },
+    "asset_tiers": {
+        "tier_1": {"min": 10000000000, "label": "$10B+"},
+        "tier_2": {"min": 1000000000, "max": 10000000000, "label": "$1B-$10B"},
+        "tier_3": {"min": 500000000, "max": 1000000000, "label": "$500M-$1B"},
+        "tier_4": {"min": 100000000, "max": 500000000, "label": "$100M-$500M"},
+        "tier_5": {"min": 0, "max": 100000000, "label": "<$100M"}
+    },
+    "regions": [
+        "West",
+        "Southwest",
+        "Mountain",
+        "Midwest",
+        "Southeast",
+        "Northeast",
+        "Mid-Atlantic"
+    ],
+    "competitors": [
+        "FIS",
+        "Fiserv",
+        "Jack Henry",
+        "NCR",
+        "Temenos",
+        "Q2",
+        "Alkami",
+        "Finastra",
+        "Other"
+    ],
+    "target_regions": ["Mountain", "West", "Southwest"],
+    "average_deal_size_by_tier": {
+        "tier_1": 500000,
+        "tier_2": 250000,
+        "tier_3": 150000,
+        "tier_4": 75000,
+        "tier_5": 35000
+    }
+}

@@ -1,0 +1,6 @@
+name,ticker,type,assets,region,current_vendor,tech_stack,state
+Mountain West Bank,MWBK,bank,4500000000,Mountain,Jack Henry,modern,UT
+Desert Credit Union,,credit_union,890000000,Southwest,Fiserv,legacy,AZ
+Pacific Community Bank,PCBK,bank,2100000000,West,FIS,modern,CA
+Rocky Mountain FCU,,credit_union,1200000000,Mountain,Jack Henry,mixed,CO
+Sunrise Savings Bank,SSBK,bank,650000000,Southwest,Fiserv,legacy,NM
